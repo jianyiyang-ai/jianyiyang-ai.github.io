@@ -19,7 +19,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am currently a postdoctoral researcher at UC, Riverside and a visiting researcher at Caltech, working Prof. Adam Wierman and Prof. Shaolei Ren.
+
+Prior of that, I received my PhD in Electrical and Computer Engineering Department at University of California, Riverside, advised by Prof. Shaolei Ren. I graduated from BUPT with M.S. and Xidian University with B.E.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
