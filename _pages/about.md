@@ -23,6 +23,4 @@ I am currently a postdoctoral researcher at UC, Riverside and a visiting researc
 
 Prior of that, I received my PhD in Electrical and Computer Engineering Department at University of California, Riverside, advised by Prof. Shaolei Ren. I graduated from BUPT with M.S. and Xidian University with B.E.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research lies in machine learning and optimization, with appliccations in safe and sustainable computing systems. Recently, my research interests are
