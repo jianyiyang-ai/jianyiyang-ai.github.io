@@ -2,17 +2,17 @@
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
-"Wierman":
-  - firstname: ["Adam", "A."]
-    url: https://adamwierman.com
+# "Wierman":
+#   - firstname: ["Adam", "A."]
+#     url: https://adamwierman.com
 
-"Li":
-  - firstname: ["Pengfei", "P."]
-    url: https://www.cs.ucr.edu/~pli081/
+# "Li":
+#   - firstname: ["Pengfei", "P."]
+#     url: https://www.cs.ucr.edu/~pli081/
 
-"Ren":
-  - firstname: ["Shaolei", "S."]
-    url: https://shaoleiren.github.io
+# "Ren":
+#   - firstname: ["Shaolei", "S."]
+#     url: https://shaoleiren.github.io
 
 
 "Podolsky":
