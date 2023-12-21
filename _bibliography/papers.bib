@@ -112,6 +112,47 @@ Finally, we run empirical experiments to demonstrate the advantages of LOMAR com
 }
 
 @article{PhysRev,
+  abbr={AAAI},
+  title={Learning-Assisted Algorithm Unrolling for Online Optimization with Inventory Constraints},
+  author={Yang, Jianyi and Ren, Shaolei},
+  abstract={Online optimization with multiple budget constraints is challenging since the online decisions 
+over a short time horizon are coupled together by strict inventory constraints. The existing manually-designed algorithms 
+cannot achieve sat- isfactory average performance for this setting because they often need a large number of time steps 
+for convergence and/or may violate the inventory constraints. In this paper, we propose a new machine learning (ML) assisted unrolling approach, 
+called LAAU (Learning-Assisted Algorithm Un- rolling), which unrolls the agent’s online decision pipeline and 
+leverages an ML model for updating the Lagrangian mul- tiplier online. For efficient training via backpropagation, 
+we derive gradients of the decision pipeline over time. We also provide the average cost bounds for two cases 
+when training data is available offline and collected online, respectively. Finally, we present numerical results 
+to highlight that LAAU can outperform the existing baselines.},
+  journal={AAAI Conference on Artificial Intelligence},
+  year={2023},
+  html={https://arxiv.org/abs/2212.01689},
+  pdf={https://arxiv.org/abs/2212.01689.pdf},
+  dimensions={true}
+}
+
+@article{PhysRev,
+  abbr={INFOCOM},
+  title={Online optimization with memory costs has many realworld applications, where sequential actions are made 
+without knowing the future input. Nonetheless, the memory cost couples the actions over time, adding substantial challenges. 
+Conventionally, this problem has been approached by various expert-designed online algorithms with the goal of achieving bounded worst-case competitive ratios,
+but the resulting average performance is often unsatisfactory. On the other hand, emerging machine learning (ML) based optimizers 
+can improve the average performance, but suffer from the lack of worst-case performance robustness. In this paper, 
+we propose a novel expert-robustified learning (ERL) approach, achieving {both} good average performance and robustness. 
+More concretely, for robustness, ERL introduces a novel projection operator that robustifies ML actions by utilizing 
+an expert online algorithm; for average performance, ERL trains the ML optimizer based on a recurrent architecture 
+by explicitly considering downstream expert robustification. We prove that, for any λ≥1, ERL can achieve λ-competitive 
+against the expert algorithm and λ⋅C-competitive against the optimal offline algorithm (where C is the expert's competitive ratio). 
+Additionally, we extend our analysis to a novel setting of multi-step memory costs. Finally, our analysis is 
+supported by empirical experiments for an energy scheduling application.},
+  journal={IEEE International Conference on Computer Communications},
+  year={2023},
+  html={https://arxiv.org/abs/2305.00677},
+  pdf={https://arxiv.org/abs/2305.00677.pdf},
+  dimensions={true},
+}
+
+@article{PhysRev,
   abbr={ICML},
   title={Informed Learning by Wide Neural Networks: Convergence, Generalization and Sampling Complexity},
   author={Yang, Jianyi and Ren, Shaolei},
