@@ -133,7 +133,8 @@ to highlight that LAAU can outperform the existing baselines.},
 
 @article{PhysRev,
   abbr={INFOCOM},
-  title={Online optimization with memory costs has many realworld applications, where sequential actions are made 
+  title={Robustified Learning for Online Optimization with Memory Costs},
+  abstract={Online optimization with memory costs has many realworld applications, where sequential actions are made 
 without knowing the future input. Nonetheless, the memory cost couples the actions over time, adding substantial challenges. 
 Conventionally, this problem has been approached by various expert-designed online algorithms with the goal of achieving bounded worst-case competitive ratios,
 but the resulting average performance is often unsatisfactory. On the other hand, emerging machine learning (ML) based optimizers 
@@ -190,6 +191,29 @@ supported by empirical experiments for an energy scheduling application.},
   pdf={https://arxiv.org/pdf/2111.01203.pdf},
   dimensions={true},
   selected={true}
+}
+
+@article{PhysRev,
+  abbr={INFOCOM},
+  title={Learning for Robust Combinatorial Optimization: Algorithm and Application},
+  author={Shao, Zhihui and Yang, Jianyi and Shen, Cong and Ren, Shaolei},
+  abstract={Learning to optimize (L2O) has recently emerged as a promising approach to solving optimization problems by exploiting the strong prediction power of neural networks and offering lower runtime complexity than conventional solvers. While L2O has been applied to various problems, a crucial yet challenging class of problems -- robust combinatorial optimization in the form of minimax optimization -- have largely remained under-explored. In addition to the exponentially large decision space, a key challenge for robust combinatorial optimization lies in the inner optimization problem, which is typically non-convex and entangled with outer optimization. In this paper, we study robust combinatorial optimization and propose a novel learning-based optimizer, called LRCO (Learning for Robust Combinatorial Optimization), which quickly outputs a robust solution in the presence of uncertain context. LRCO leverages a pair of learning-based optimizers -- one for the minimizer and the other for the maximizer -- that use their respective objective functions as losses and can be trained without the need of labels for training problem instances. To evaluate the performance of LRCO, we perform simulations for the task offloading problem in vehicular edge computing. Our results highlight that LRCO can greatly reduce the worst-case cost and improve robustness, while having a very low runtime complexity. },
+  journal={ACM International Conference on Measurement and Modeling of Computer Systems},
+  year={2022},
+  html={https://arxiv.org/abs/2112.10377},
+  pdf={https://arxiv.org/abs/2112.10377.pdf},
+  dimensions={true},
+}
+
+@article{PhysRev,
+  abbr={IOTJ},
+  title={Improving QoE of Deep Neural Network Inference on Edge Devices: A Bandit Approach},
+  journal={IEEE Internet of Things Journal},
+  abstract={Edge devices, including, in particular, mobile devices, have been emerging as an increasingly more important platform for deep neural network (DNN) inference. Typically, multiple lightweight DNN models generated using different architectures and/or compression schemes can fit into a device, thus selecting an optimal one is crucial in order to maximize the users’ Quality of Experience (QoE) for edge inference. The existing approaches to device-aware DNN optimization are usually time consuming and not scalable in view of extremely diverse edge devices. More importantly, they focus on optimizing standard performance metrics (e.g., accuracy and latency), which may not translate into improvement of the users’ actual subjective QoE. In this article, we propose a novel automated and user-centric DNN selection engine, called Aquaman , which keeps users into a closed loop and leverages their QoE feedback to guide DNN selection decisions. The core of Aquaman is a neural network-based QoE predictor, which is continuously updated online. Additionally, we use neural bandit learning to balance exploitation and exploration, with a provably efficient QoE performance. Finally, we evaluate Aquaman on a 15-user experimental study as well as synthetic simulations, demonstrating the effectiveness of Aquaman .},
+  year={2022},
+  html={https://ieeexplore.ieee.org/abstract/document/9795664?casa_token=otBMbLQqXpUAAAAA:PqGO6w8ybjy6qLhEF1qLbA4DPLwJe4cnNGvBLFnxFL3H8TP9TlGHgpwO0FJyx7zm8nPDs_OWsI0},
+  pdf={https://ieeexplore.ieee.org/abstract/document/9795664?casa_token=otBMbLQqXpUAAAAA:PqGO6w8ybjy6qLhEF1qLbA4DPLwJe4cnNGvBLFnxFL3H8TP9TlGHgpwO0FJyx7zm8nPDs_OWsI0},
+  dimensions={true},
 }
 
 @article{einstein1905molekularkinetischen,
