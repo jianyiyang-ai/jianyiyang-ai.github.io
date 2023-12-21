@@ -71,6 +71,26 @@ LA-OACP.},
   abbr={NeurIPS},
   title={Robust Learning for Smoothed Online Convex Optimization with Feedback Delay},
   author={Yang, Jianyi and Li, Pengfei and Wierman, Adam and Ren, Shaolei},
+  abstract={We study a challenging form of Smoothed Online Convex Optimization, a.k.a. SOCO, 
+including multi-step nonlinear switching costs and feedback delay. We propose a novel machine learning (ML) augmented online algorithm, 
+Robustness-Constrained Learning (RCL), which combines untrusted ML predictions with a trusted expert online algorithm 
+ia constrained projection to robustify the ML prediction. Specifically,we prove that RCL is able to guarantee(1+λ)-competitiveness 
+against any given expert for anyλ>0, while also explicitly training the ML model in a robustification-aware manner to 
+improve the average-case performance. Importantly,RCL is the first ML-augmented algorithm with a provable robustness guarantee 
+in the case of multi-step switching cost and feedback delay.We demonstrate the improvement of RCL in both robustness and average 
+performance using battery management for electrifying transportationas a case study.},
+  journal={Neural Information Processing System},
+  year={2023},
+  html={https://arxiv.org/abs/2310.20098},
+  pdf={https://arxiv.org/pdf/2310.20098.pdf},
+  dimensions={true},
+  selected={true}
+}
+
+@article{PhysRev,
+  abbr={ICML},
+  title={Learning for Edge-Weighted Online Bipartite Matching with Robustness Guarantees},
+  author={Yang, Jianyi and Li, Pengfei and Wierman, Adam and Ren, Shaolei},
   abstract={Many problems, such as online ad display, can be formulated as online bipartite matching. 
 The crucial challenge lies in the nature of sequentially- revealed online item information, 
 based on which we make irreversible matching decisions at each step. While numerous expert online algorithms 
@@ -83,26 +103,6 @@ condition to hedge against future uncertainties, decides whether to follow the e
 for each online item. We prove that for any ρ ∈ [0, 1], LOMAR is ρ-competitive against any given expert online algorithm. 
 To improve the average performance, we train the RL policy by explicitly considering the online switching operation. 
 Finally, we run empirical experiments to demonstrate the advantages of LOMAR com- pared to existing baselines.},
-  journal={Neural Information Processing System},
-  year={2023},
-  html={https://arxiv.org/abs/2310.20098},
-  pdf={https://arxiv.org/pdf/2310.20098.pdf},
-  dimensions={true},
-  selected={true}
-}
-
-@article{PhysRev,
-  abbr={{ICML},
-  title={Robust Learning for Smoothed Online Convex Optimization with Feedback Delay},
-  author={Yang, Jianyi and Li, Pengfei and Wierman, Adam and Ren, Shaolei},
-  abstract={We study a challenging form of Smoothed Online Convex Optimization, a.k.a. SOCO, 
-including multi-step nonlinear switching costs and feedback delay. We propose a novel machine learning (ML) augmented online algorithm, 
-Robustness-Constrained Learning (RCL), which combines untrusted ML predictions with a trusted expert online algorithm 
-ia constrained projection to robustify the ML prediction. Specifically,we prove that RCL is able to guarantee(1+λ)-competitiveness 
-against any given expert for anyλ>0, while also explicitly training the ML model in a robustification-aware manner to 
-improve the average-case performance. Importantly,RCL is the first ML-augmented algorithm with a provable robustness guarantee 
-in the case of multi-step switching cost and feedback delay.We demonstrate the improvement of RCL in both robustness and average 
-performance using battery management for electrifying transportationas a case study.},
   journal={International Conference on Machine Learning},
   year={2023},
   html={https://arxiv.org/abs/2306.00172},
