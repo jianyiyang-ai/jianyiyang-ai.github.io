@@ -19,8 +19,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a postdoctoral researcher at UC, Riverside and a visiting researcher at Caltech, working Prof. Adam Wierman and Prof. Shaolei Ren.
+I am currently a postdoctoral researcher at [UC, Riverside](https://www.ucr.edu) and a visiting researcher at [Caltech](https://www.caltech.edu), working [Prof. Adam Wierman](https://adamwierman.com) and [Prof. Shaolei Ren](https://shaoleiren.github.io).
 
-Prior of that, I received my PhD in Electrical and Computer Engineering Department at University of California, Riverside, advised by Prof. Shaolei Ren. I graduated from BUPT with M.S. and Xidian University with B.E.
+Prior of that, I received my PhD in Electrical and Computer Engineering Department at University of California, Riverside, advised by [Prof. Shaolei Ren](https://shaoleiren.github.io). I graduated from [BUPT](https://en.wikipedia.org/wiki/Beijing_University_of_Posts_and_Telecommunications) with M.S. and [Xidian University](https://en.wikipedia.org/wiki/Xidian_University) with B.E.
 
 My research lies in machine learning and optimization, with appliccations in safe and sustainable computing systems. Recently, my research interests are
