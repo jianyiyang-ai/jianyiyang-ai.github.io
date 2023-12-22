@@ -1,31 +1,6 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  month={05},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
 @article{PhysRev,
   abbr={SIGMETRICS},
   title={Online Allocation with Replenishable Budgets: Worst Case and Beyond},
@@ -303,30 +278,6 @@ model provides a close-to-true accuracy estimation and outperforms the existing 
   dimensions={true},
 }
 
-@article{PhysRev,
-  abbr={AI Safety},
-  title={Multi-Feedback Bandit Learning with Probabilistic Contexts},
-  author={Shao, Zhihui and Yang, Jianyi and Ren, Shaolei},
-  journal={International Joint Conference on Artificial Intelligence},
-  abstract={Inference accuracy of deep neural networks (DNNs) is a crucial performance metric, 
-but can vary greatly in practice subject to actual test datasets and is typically unknown 
-due to the lack of ground truth labels. This has raised significant concerns with trustworthiness of DNNs, 
-especially in safety-critical applications. In this paper, we ad- dress trustworthiness of 
-DNNs by using post-hoc processing to monitor the true inference accuracy on a user’s dataset. 
-Concretely, we propose a neu- ral network-based accuracy monitor model, which only takes the deployed DNN’s 
-softmax probability output as its input and directly predicts if the DNN’s prediction result is correct or not, 
-thus lead- ing to an estimate of the true inference accuracy. The accuracy monitor model can be pre-trained 
-on a dataset relevant to the target application of inter- est, and only needs to actively label a small portion 
-(1% in our experiments) of the user’s dataset for model transfer. For estimation robustness, 
-we further employ an ensemble of monitor models based on the Monte-Carlo dropout method. 
-We evaluate our approach on different deployed DNN models for image classification and traffic sign detection 
-over multiple datasets (including adversarial sam- ples). The result shows that our accuracy monitor 
-model provides a close-to-true accuracy estimation and outperforms the existing baseline methods.},
-  year={2020},
-  html={https://arxiv.org/pdf/2007.01472.pdf},
-  pdf={https://arxiv.org/pdf/2007.01472.pdf},
-  dimensions={true},
-}
 
 
 @article{PhysRev,
@@ -360,41 +311,65 @@ the potential of machine learning for automating DNN model selection to achieve 
 }
 
 
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{PhysRev,
+  abbr={PIMRC},
+  title={User Clustering and Scheduling in UAV Systems Exploiting Channel Correlation},
+  author={Zhenqiao Cheng and Jianyi Yang and Zaixue Wei and Hongwen Yang},
+  journal={IEEE 30th Annual International Symposium on Personal, Indoor and Mobile Radio Communications},
+  abstract={Unmanned aerial vehicle (UAV) communication system equipped with multiple input and multiple output (MIMO) 
+antennas has been recognized as an efficient technique for obtaining high spectral efficiency. 
+To improve the system capacity in UAV communication scenario, this paper investigates the user clustering 
+and downlink user scheduling strategy. We first develop a channel correlation based K-means algorithm for user clustering. 
+Furthermore, to diminish intergroup interference, a greedy user scheduling algorithm driven by the K-means clustering strategy, 
+is devised to appropriately select the users with low-correlated channels to schedule at the same time slot. 
+Simulation results are provided to demonstrate the superior performance of the proposed scheduling algorithm 
+over conventional method. It is observed that the presented K-means aided algorithm can achieve near maximum average sum rate with much lower computational complexity.},
+  year={2019},
+  html={https://ieeexplore.ieee.org/abstract/document/8904135},
+  pdf={https://ieeexplore.ieee.org/abstract/document/8904135},
+  dimensions={true},
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905},
-  selected={true}
+@article{PhysRev,
+  abbr={WCNC},
+  title={Correlation Based Adaptive Compressed Sensing for Millimeter Wave Channel Estimation},
+  author={Jianyi Yang and Zaixue Wei and Xin Zhang and Nanxi Li and Lin Sang},
+  journal={IEEE Wireless Communications and Networking Conference}
+  abstract={In millimeter wave (mmWave) systems, the low-overhead and high-accuracy estimation of channel state information (CSI), 
+especially the angle of departure (AoD) and the angle of arrival (AoA), is essential for hybrid beamforming. 
+The existing adaptive compressed sensing (ACS) based channel estimation algorithm decides the angles 
+by comparing the received powers of different beams. The estimated angular resolution of this power based method is 
+limited by the resolution of beams. In this paper, a correlation based adaptive compressed sensing 
+(CB-ACS) method is proposed. It decides the angles by comparing the correlations between the received vector 
+and the quantized sensing vectors. For the proposed method, two criteria for the beam pattern design are proposed 
+and the cosine beam pattern is proved to be suitable. Then the corresponding hierarchical codebook is designed 
+considering the hardware constraints. Simulation results show that with the proposed scheme, 
+more precise estimation can be realized without increasing the training overhead. 
+Thus, the achievable spectral efficiency of the hybrid precoding system increases.},
+  year={2017},
+  html={https://ieeexplore.ieee.org/document/7925685},
+  pdf={https://ieeexplore.ieee.org/document/7925685},
+  dimensions={true},
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{PhysRev,
+  abbr={ICCC},
+  title={Enhanced multi-resolution hierarchical codebook design for adaptive compressed sensing based millimeter wave channel estimation},
+  author={Jianyi Yang and Zaixue Wei and Xin Zhang and Nanxi Li and Lin Sang},
+  journal={IEEE/CIC International Conference on Communications in China}
+  abstract={Perfect channel state information (CSI) is essential for precoding and combining in millimeter wave (mmWave) systems.
+The CSI estimation algorithm based on adaptive compressed sensing (CS) is an efficient method. 
+However, the imperfect multi-resolution hierarchical codebook design possibly leads to 
+wrong detections of angle of arrival (AoA) and angle of departure (AoD), which has a negative effect on the spectral efficiency.
+In this paper, an enhanced multi-resolution hierarchical codebook design is proposed to realize precise AoD/AoA estimation. 
+First, the necessary number of sampling angles for generating the codebook is given. 
+Then, the algorithm of iterative adjustment (IA) is developed to improve the codebook design. 
+Simulation results show that using the proposed codebook design, the beams can precisely divide the AoA/AoD intervals 
+as the requirements of the adaptive CS based algorithm. 
+Thus, the average angle estimation error is reduced effectively.},
+  year={2017},
+  html={https://ieeexplore.ieee.org/document/7636870},
+  pdf={https://ieeexplore.ieee.org/document/7636870},
+  dimensions={true},
 }
 
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}
