@@ -2,31 +2,22 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Jianyi Yang
     - name: Languages
-      value: English, German
+      value: English, Chinese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: PhD in Electrical Engineering
+      institution: University of California, Riverside
+      year: 2023
+    - title: M.S. in Information and Communication Engineering
+      institution: Beijing University of Posts and Telecommunications
+      year: 2018
+    - title: B.E. in Information Engineering
+      institution: Xidian University
+      year: 2015
 
 - title: Experience
   type: time_table
