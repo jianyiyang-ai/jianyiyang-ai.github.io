@@ -209,13 +209,100 @@ supported by empirical experiments for an energy scheduling application.},
 @article{PhysRev,
   abbr={IOTJ},
   title={Improving QoE of Deep Neural Network Inference on Edge Devices: A Bandit Approach},
+  author={Lu, Bingqian and Yang, Jianyi and Xu, Jie and Ren, Shaolei},
   journal={IEEE Internet of Things Journal},
-  abstract={Edge devices, including, in particular, mobile devices, have been emerging as an increasingly more important platform for deep neural network (DNN) inference. Typically, multiple lightweight DNN models generated using different architectures and/or compression schemes can fit into a device, thus selecting an optimal one is crucial in order to maximize the users’ Quality of Experience (QoE) for edge inference. The existing approaches to device-aware DNN optimization are usually time consuming and not scalable in view of extremely diverse edge devices. More importantly, they focus on optimizing standard performance metrics (e.g., accuracy and latency), which may not translate into improvement of the users’ actual subjective QoE. In this article, we propose a novel automated and user-centric DNN selection engine, called Aquaman , which keeps users into a closed loop and leverages their QoE feedback to guide DNN selection decisions. The core of Aquaman is a neural network-based QoE predictor, which is continuously updated online. Additionally, we use neural bandit learning to balance exploitation and exploration, with a provably efficient QoE performance. Finally, we evaluate Aquaman on a 15-user experimental study as well as synthetic simulations, demonstrating the effectiveness of Aquaman .},
+  abstract={Edge devices, including, in particular, mobile devices, have been emerging as an 
+increasingly more important platform for deep neural network (DNN) inference. Typically, 
+multiple lightweight DNN models generated using different architectures and/or compression schemes 
+can fit into a device, thus selecting an optimal one is crucial in order to maximize the users’ 
+Quality of Experience (QoE) for edge inference. The existing approaches to device-aware DNN 
+optimization are usually time consuming and not scalable in view of extremely diverse edge devices. 
+More importantly, they focus on optimizing standard performance metrics (e.g., accuracy and latency), 
+which may not translate into improvement of the users’ actual subjective QoE. In this article,
+we propose a novel automated and user-centric DNN selection engine, called Aquaman , 
+which keeps users into a closed loop and leverages their QoE feedback to guide DNN selection decisions. 
+The core of Aquaman is a neural network-based QoE predictor, which is continuously updated online. 
+Additionally, we use neural bandit learning to balance exploitation and exploration, 
+with a provably efficient QoE performance. Finally, we evaluate Aquaman on a 15-user experimental 
+study as well as synthetic simulations, demonstrating the effectiveness of Aquaman .},
   year={2022},
   html={https://ieeexplore.ieee.org/abstract/document/9795664?casa_token=otBMbLQqXpUAAAAA:PqGO6w8ybjy6qLhEF1qLbA4DPLwJe4cnNGvBLFnxFL3H8TP9TlGHgpwO0FJyx7zm8nPDs_OWsI0},
   pdf={https://ieeexplore.ieee.org/abstract/document/9795664?casa_token=otBMbLQqXpUAAAAA:PqGO6w8ybjy6qLhEF1qLbA4DPLwJe4cnNGvBLFnxFL3H8TP9TlGHgpwO0FJyx7zm8nPDs_OWsI0},
   dimensions={true},
 }
+
+@article{PhysRev,
+  abbr={AAAI},
+  title={Robust Bandit Learning with Imperfect Context},
+  author={Yang, Jianyi and Ren, Shaolei},
+  journal={AAAI Conference on Artificial Intelligence},
+  abstract={A standard assumption in contextual multi-arm bandit is that the true context is perfectly known before arm selection.
+Nonetheless, in many practical applications (e.g., cloud resource management), 
+prior to arm selection, the context information can only be acquired by prediction 
+subject to errors or adversarial modification. In this paper, we study a novel contextual 
+bandit setting in which only imperfect context is available for arm selection while the true context 
+is revealed at the end of each round. We propose two robust arm selection algorithms: MaxMinUCB 
+(Maximize Minimum UCB) which maximizes the worst-case reward, and MinWD (Minimize Worst-case Degradation) 
+which minimizes the worst-case regret. Importantly, we analyze the robustness of MaxMinUCB and MinWD by 
+deriving both regret and reward bounds compared to an oracle that knows the true context. 
+Our results show that as time goes on, MaxMinUCB and MinWD both perform as asymptotically well as 
+their optimal counterparts that know the reward function. Finally, we apply MaxMinUCB and MinWD to 
+online edge datacenter selection, and run synthetic simulations to validate our theoretical analysis.},
+  year={2021},
+  html={https://arxiv.org/abs/2102.05018},
+  pdf={https://arxiv.org/abs/2102.05018.pdf},
+  dimensions={true},
+}
+
+@article{PhysRev,
+  abbr={INFOCOM},
+  title={Bandit Learning with Predicted Context: Regret Analysis and Selective Context Query},
+  author={Yang, Jianyi and Ren, Shaolei},
+  journal={IEEE International Conference on Computer Communications},
+  abstract={Abstract—Contextual bandit learning selects actions (i.e., arms) 
+based on context information to maximize rewards while balancing exploitation and exploration.
+In many applications (e.g., cloud resource management with dynamic workloads), before arm selection, 
+the agent/learner can either predict context information online based on context history or selectively
+query the context from an outside expert. Motivated by this practical consideration, 
+we study a novel contextual bandit setting where context information is either predicted online or queried from an expert. 
+First, considering predicted context only, we quantify the impact of context prediction on the cumulative regret 
+(compared to an oracle with perfect context information) by deriving an upper bound on regret, 
+which takes the form of a weighted combination of regret incurred by standard bandit learning and the context 
+prediction error. Then, inspired by the regret’s structural decomposition, we propose context query algorithms 
+to selectively obtain outside expert’s input (subject to a total query budget) for more accurate context, 
+decreasing the overall regret. Finally, we apply our algorithms to virtual machine scheduling on cloud platforms. 
+The simulation results validate our regret analysis and shows the effectiveness of our selective context query algorithms.},
+  year={2021},
+  html={https://ieeexplore.ieee.org/document/9488896},
+  pdf={https://jyang-ai.github.io/files/Bandit_Learning_with_Predicted_Context_Regret_Analysis_and_Selective_Context_Query.pdf},
+  dimensions={true},
+}
+
+@article{PhysRev,
+  abbr={IJCAI},
+  title={Multi-Feedback Bandit Learning with Probabilistic Contexts},
+  author={Yang*, Luting and Yang*, Jianyi and Ren, Shaolei},
+  journal={International Joint Conference on Artificial Intelligence},
+  abstract={Contextual bandit is a classic multi-armed bandit setting, where side information (i.e., context) 
+is available before arm selection. A standard assump- tion is that exact contexts are perfectly 
+known prior to arm selection and only single feedback is re- turned. In this work, 
+we focus on multi-feedback bandit learning with probabilistic contexts, 
+where a bundle of contexts are revealed to the agent along with their corresponding probabilities at the 
+beginning of each round. This models such scenarios as where contexts are drawn from the probability output 
+of a neural network and the reward func- tion is jointly determined by multiple feedback signals. 
+We propose a kernelized learning algorithm based on upper confidence bound to choose the optimal arm 
+in reproducing kernel Hilbert space for each context bundle. Moreover, we theoretically establish an upper 
+bound on the cumulative regret with respect to an oracle that knows the optimal arm given probabilistic contexts, 
+and show that the bound grows sublinearly with time. Our simula- tion on machine learning model 
+recommendation further validates the sub-linearity of our cumulative regret and 
+demonstrates that our algorithm outperforms the approach that selects arms based on the most probable context.},
+  year={2020},
+  html={https://www.ijcai.org/Proceedings/2020/0427.pdf},
+  pdf={https://www.ijcai.org/Proceedings/2020/0427.pdf},
+  dimensions={true},
+}
+
+
 
 @article{einstein1905molekularkinetischen,
   title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
