@@ -279,26 +279,83 @@ The simulation results validate our regret analysis and shows the effectiveness 
 }
 
 @article{PhysRev,
-  abbr={IJCAI},
+  abbr={AI Safety},
   title={Multi-Feedback Bandit Learning with Probabilistic Contexts},
-  author={Yang*, Luting and Yang*, Jianyi and Ren, Shaolei},
+  author={Shao, Zhihui and Yang, Jianyi and Ren, Shaolei},
   journal={International Joint Conference on Artificial Intelligence},
-  abstract={Contextual bandit is a classic multi-armed bandit setting, where side information (i.e., context) 
-is available before arm selection. A standard assump- tion is that exact contexts are perfectly 
-known prior to arm selection and only single feedback is re- turned. In this work, 
-we focus on multi-feedback bandit learning with probabilistic contexts, 
-where a bundle of contexts are revealed to the agent along with their corresponding probabilities at the 
-beginning of each round. This models such scenarios as where contexts are drawn from the probability output 
-of a neural network and the reward func- tion is jointly determined by multiple feedback signals. 
-We propose a kernelized learning algorithm based on upper confidence bound to choose the optimal arm 
-in reproducing kernel Hilbert space for each context bundle. Moreover, we theoretically establish an upper 
-bound on the cumulative regret with respect to an oracle that knows the optimal arm given probabilistic contexts, 
-and show that the bound grows sublinearly with time. Our simula- tion on machine learning model 
-recommendation further validates the sub-linearity of our cumulative regret and 
-demonstrates that our algorithm outperforms the approach that selects arms based on the most probable context.},
+  abstract={Inference accuracy of deep neural networks (DNNs) is a crucial performance metric, 
+but can vary greatly in practice subject to actual test datasets and is typically unknown 
+due to the lack of ground truth labels. This has raised significant concerns with trustworthiness of DNNs, 
+especially in safety-critical applications. In this paper, we ad- dress trustworthiness of 
+DNNs by using post-hoc processing to monitor the true inference accuracy on a user’s dataset. 
+Concretely, we propose a neu- ral network-based accuracy monitor model, which only takes the deployed DNN’s 
+softmax probability output as its input and directly predicts if the DNN’s prediction result is correct or not, 
+thus lead- ing to an estimate of the true inference accuracy. The accuracy monitor model can be pre-trained 
+on a dataset relevant to the target application of inter- est, and only needs to actively label a small portion 
+(1% in our experiments) of the user’s dataset for model transfer. For estimation robustness, 
+we further employ an ensemble of monitor models based on the Monte-Carlo dropout method. 
+We evaluate our approach on different deployed DNN models for image classification and traffic sign detection 
+over multiple datasets (including adversarial sam- ples). The result shows that our accuracy monitor 
+model provides a close-to-true accuracy estimation and outperforms the existing baseline methods.},
   year={2020},
-  html={https://www.ijcai.org/Proceedings/2020/0427.pdf},
-  pdf={https://www.ijcai.org/Proceedings/2020/0427.pdf},
+  html={https://arxiv.org/pdf/2007.01472.pdf},
+  pdf={https://arxiv.org/pdf/2007.01472.pdf},
+  dimensions={true},
+}
+
+@article{PhysRev,
+  abbr={AI Safety},
+  title={Multi-Feedback Bandit Learning with Probabilistic Contexts},
+  author={Shao, Zhihui and Yang, Jianyi and Ren, Shaolei},
+  journal={International Joint Conference on Artificial Intelligence},
+  abstract={Inference accuracy of deep neural networks (DNNs) is a crucial performance metric, 
+but can vary greatly in practice subject to actual test datasets and is typically unknown 
+due to the lack of ground truth labels. This has raised significant concerns with trustworthiness of DNNs, 
+especially in safety-critical applications. In this paper, we ad- dress trustworthiness of 
+DNNs by using post-hoc processing to monitor the true inference accuracy on a user’s dataset. 
+Concretely, we propose a neu- ral network-based accuracy monitor model, which only takes the deployed DNN’s 
+softmax probability output as its input and directly predicts if the DNN’s prediction result is correct or not, 
+thus lead- ing to an estimate of the true inference accuracy. The accuracy monitor model can be pre-trained 
+on a dataset relevant to the target application of inter- est, and only needs to actively label a small portion 
+(1% in our experiments) of the user’s dataset for model transfer. For estimation robustness, 
+we further employ an ensemble of monitor models based on the Monte-Carlo dropout method. 
+We evaluate our approach on different deployed DNN models for image classification and traffic sign detection 
+over multiple datasets (including adversarial sam- ples). The result shows that our accuracy monitor 
+model provides a close-to-true accuracy estimation and outperforms the existing baseline methods.},
+  year={2020},
+  html={https://arxiv.org/pdf/2007.01472.pdf},
+  pdf={https://arxiv.org/pdf/2007.01472.pdf},
+  dimensions={true},
+}
+
+
+@article{PhysRev,
+  abbr={CogMI},
+  title={Automating Deep Neural Network Model Selection for Edge Inference},
+  author={Lu*, Bingqian and Yang*, Jianyi and Lydia Y. Chen and Ren, Shaolei},
+  journal={IEEE First International Conference on Cognitive Machine Intelligence},
+  abstract={The ever increasing size of deep neural network (DNN) models once implied that 
+they were only limited to cloud data centers for runtime inference. Nonetheless, 
+the recent plethora of DNN model compression techniques have successfully overcome this limit, 
+turning into a reality that DNN-based inference can be run on numerous resource-constrained edge devices 
+including mobile phones, drones, robots, medical devices, wearables, Internet of Things devices, 
+among many others. Naturally, edge devices are highly heterogeneous in terms of hardware specification 
+and usage scenarios. On the other hand, compressed DNN models are so diverse that they exhibit different 
+tradeoffs in a multi-dimension space, and not a single model can achieve optimality in terms of all important 
+metrics such as accuracy, latency and energy consumption. Consequently, how to automatically select a compressed 
+DNN model for an edge device to run inference with optimal quality of experience (QoE) arises as a new challenge. 
+The state-of-the-art approaches either choose a common model for all/most devices, which is optimal for 
+a small fraction of edge devices at best, or apply device-specific DNN model compression, which is not scalable. 
+In this paper, by leveraging the predictive power of machine learning and keeping end users in the loop, 
+we envision an automated device-level DNN model selection engine for QoE-optimal edge inference. 
+To concretize our vision, we formulate the DNN model selection problem into a contextual multi-armed bandit framework, 
+where features of edge devices and DNN models are contexts and pre-trained DNN models are arms selected online 
+based on the history of actions and users' QoE feedback. We develop an efficient online learning algorithm to 
+balance exploration and exploitation. Our preliminary simulation results validate our algorithm and highlight 
+the potential of machine learning for automating DNN model selection to achieve QoE-optimal edge inference.},
+  year={2019},
+  html={https://ieeexplore.ieee.org/abstract/document/8998995},
+  pdf={https://ieeexplore.ieee.org/abstract/document/8998995},
   dimensions={true},
 }
 
