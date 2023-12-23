@@ -29,7 +29,7 @@
 - title: Publictions
   type: list
   contents:
-    - [Publication List](https://jianyiyang-ai.github.io/publications/)
+    - title: [Publication List](https://jianyiyang-ai.github.io/publications/)
 
 - title: Teaching 
   type: time_table
