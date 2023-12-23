@@ -26,11 +26,6 @@
       institution: Tencent AI Lab, Seattle, WA
       year: 2022
 
-- title: Publictions
-  type: list
-  contents:
-    - Publication List
-
 - title: Teaching 
   type: time_table
   contents:
@@ -58,6 +53,23 @@
       items:
         - ICML 2023 in Honolulu, HI
         - ICML 2022 in Baltimore, MD
+
+- title: Talks 
+  type: time_table
+  contents:
+    - title: Informs Annual Meeting
+      description: Anytime-Constrained Sequential Decision-making with Provable Trustworthiness Guarantee
+      year: 10/2023
+
+    - title: SIGMETRIS workshop on Learning-augmented Algorithms: Theory and Applications (SIGMETRICS-LATA)
+      description: Learning-Augmented Decentralized Online Convex Optimization in Networks
+      year: 06/2023
+      
+    - title: Information Theory and Applications (ITA) Workshop
+      description: Intelligent Online Decision-making with Provable Trustworthiness Guarantee
+      year: 03/2023
+
+   
 
 - title: Honors and Awards
   type: time_table
