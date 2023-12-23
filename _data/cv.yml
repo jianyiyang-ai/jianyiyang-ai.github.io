@@ -26,12 +26,20 @@
       institution: Tencent AI Lab, Seattle, WA
       year: 2022
 
-- title: Open Source Projects
+- title: Teaching 
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Teaching Assistant, Data Center Architecture 
+      institution: University of California, Riverside, Riverside, CA
+      year: 2023
+      
+    - title: Teaching Assistant, Logic Design
+      institution: University of California, Riverside, Riverside, CA
+      year: 2019
+
+    - title: Teaching Assistant, Principles of Communications
+      institution: Beijing University of Posts and Telecommunications, Beijing, China
+      year: 2016
 
 - title: Honors and Awards
   type: time_table
