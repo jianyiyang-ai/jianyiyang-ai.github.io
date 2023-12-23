@@ -29,7 +29,7 @@
 - title: Publictions
   type: list
   contents:
-    - title: Publication List
+    - Publication List
 
 - title: Teaching 
   type: time_table
@@ -51,9 +51,9 @@
   contents:
     - title: Reviewer
       items: 
-        - 2023: ICML, NeurIPS, KDD, AAAI, AISTATS, ICLR
-        - 2022: NeurIPS, ICML, AISTATS, AAAI
-        - 2021: AISTATS, IEEE Systems Journal
+        - 2023, ICML, NeurIPS, KDD, AAAI, AISTATS, ICLR
+        - 2022, NeurIPS, ICML, AISTATS, AAAI
+        - 2021, AISTATS, IEEE Systems Journal
     - title: Volunteer
       items:
         - ICML 2023 in Honolulu, HI
