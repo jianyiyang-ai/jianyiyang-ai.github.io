@@ -40,17 +40,55 @@
     - title: Teaching Assistant, Principles of Communications
       institution: Beijing University of Posts and Telecommunications, Beijing, China
       year: 2016
+      
+- title: Service 
+  type: nested_list
+  contents:
+    - title: Reviewer
+      items: 
+        - 2023: ICML, NeurIPS, KDD, AAAI, AISTATS, ICLR
+        - 2022: NeurIPS, ICML, AISTATS, AAAI
+        - 2021: AISTATS, IEEE Systems Journal
+    - title: Volunteer
+      items:
+        - ICML 2023 in Honolulu, HI
+        - ICML 2022 in Baltimore, MD
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2022
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        -  Dissertation Year Program Award (for selected outstanding PhD students), UCR
+    - year: 2023
       items: 
-        - Max Planck Medal
+        - Travel Grant of NeurIPS 2023, NeurIPS 2023 Program Committee
+    - year: 2023
+      items: 
+        - Travel Grant of SIGMETRICS 2023, SIGMETRICS 2023 Program Committee
+    - year: 2023
+      items: 
+        - Travel Grant of ICML 2023, ICML 2023 Committee
+    - year: 2022
+      items: 
+        - Travel Grant of ICML 2022, ICML 2022 Committee
+    - year: 2018
+      items:
+        - Dean’s Distinguished Fellowship, UCR
+    - year: 2017
+      items: 
+        - National Scholarship for Graduates (top 1%), Ministry of Education of China
+    - year: 2015
+      items:
+        - Goodix Enterprise Scholarship (top 1%), Xidian University
+    - year: 2013
+      items:
+        - National Scholarship (top 2%), Ministry of Education of China
+    - year: 2012
+      items:
+        - National Scholarship (top 2%), Ministry of Education of China
+      
+    
 
 - title: Academic Interests
   type: nested_list
