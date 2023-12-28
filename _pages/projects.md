@@ -10,7 +10,7 @@ horizontal: false
 
 My research focuses on both fundamental algorithms (learning-augmented algorithms, online resource allocation algorithms) and their applications in sustainable and efficient AI systems. Recent projects are summarized as below.
 
-## Learning-augmented Algorithms ##
+## Learning-Augmented Algorithms ##
 Learning-augmented algorithms utilize ML advice or
 data-driven methods in algorithm design to improve the empirical performance with theoretical guarantee. In many mission-critical systems such as data centers, energy systems, edge/cloud computing,
 and transportation systems, classic expert
