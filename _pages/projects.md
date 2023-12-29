@@ -35,6 +35,8 @@ Learning-augmented algorithms is an important direction in knowledge informed le
 
 
 ## AI and Sustainability ##
+Large AI models have witnessed remarkable success in recent years. As more and more large AI models are deployed in data centers, the energy consumption of data centers has been rapidly increasing. Thus, the environmental footprints of AI have become a concern that cannot be ignored (see our study on AI water footprints). My research aims to address the key challenges from sustainable AI and computing. First of all, we optimize the environmental efficiency of data centers by designing new resource allocation and load balancing algorithms which are aware of the requirements and objectives in the context of systainable AI. Besdies, with the goal of directly reduce the inference footprints of AI models, we develop new methods to optimize neural architectures for diverse hardware systems.
+
 
 **Fundamental Resource Allocation Algorithms**
 
