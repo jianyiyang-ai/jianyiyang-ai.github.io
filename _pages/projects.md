@@ -26,17 +26,18 @@ Many system problems such as robot tracking, data center resource provisioning, 
 In some problems such as smoothed online convex optimization and online control, the agent has access to dynamic models and reward/cost models and the challenges mainly come from the uncertainty of future context. We propose expected robustified learning algorithms (see NeurIPS'23, INFOCOM'23) that provably guarantee competitiveness. It is more challenging to guarantee competitiveness in more general decision-making problems where the agent has no access to dynamic models or reward/cost models. For these problems, we design Anytime-Competitive Reinforcement Learning (see NeurIPS'23) which defines safe action sets to guarantee the constraint satisfication for any instance. 
 
 **Learning-Augmented Online Allocation and Matching**
-In many computing systems, the comput- ing resources are finite and limited, so algorithms are needed to to optimize the utility under resource budget constraints. Examples include power allocation for edge computing and data center server provisioning with carbon neutrality. The problem is challenging due to the strict budget constraints, the existence of a budget cap, and the online nature. My study [11, 2] gives a deep unrolling model based on the online primal-dual decision pipeline which can achieve superior average performance . Also, my study designs the first dual mirror descent algorithm for online allocation with replenishment with competitive ratio guarantee. In addition, a learning-augmented algorithm is designed to improve the empirical performance under the provable guarantee of the worst-case performance.
+Online resource allocation (with continuous actions) and online bipartite matching (with discrete actions) model many key problems in sustainable computing, network resource management, inverntory mangement, online advertising, etc. In these problems, the solutions must satisfy strict long-term budget constraints, e.g. in sustainable computing, the total carbon emission should not exceed a carbon budget. 
+Even with the expert policy priors, the budget constriants make the learning-augmented designs for these problems even more challenging. With the goal of improving the statistical performance subject to the worst-case guarantee, we design the first learning-augmented algorithm for online allocation with replenishable budgets on the basis of the proposed competitive algorithm OACP (see SIGMETRICS'24). In addition, we design the first learning-augmented online switching algorithm for online bipartite matching (see ICML'22). 
 
 **Knowledge Informed Learning**
-The designs of learning- augmented algorithms successfully utilize the domain knowledge. Actually, domain knowledge has been extensively utilized in ML to achieve better generalization, robustness, and interpretability. My study [17] gives the first rigorous analysis about the role of domain knowledge in machine learning and shows how the quality of domain knowledge affect the generalization. We define the metrics of the imperfectness of labels and domain knowledge and show the dependency of the generalization bound on the imperfectness. Also, the analysis of sampling complexity for informed ML establishes a quantitative equivalence between domain knowledge and labeled samples.
+Learning-augmented algorithms is an important direction in knowledge informed learning which utilizes domain knowledge in ML to achieve better generalization, robustness, and interpretability. Thus, a rigorous analysis of knowledge informed learning is necessary to understand the effects of domain knowledge in machine learning. Our study considers a general framework which integrates domain knowledge in the training objective and shows how the quality of domain knowledge affect the generalization performance (see ICML'22). As a concrete example, a traning algorithm based on expert knowledge is developed for smoothed online convex optimization and achieve better performance than pure ML (see SIGMETRICS'22).
 
 
-
-## Fundamental Algorithms for Online Resource Allocation ##
-
-**Online Allocation with Budget Replenishment**
-
-**Online Budgeted Maching**
 
 ## AI and Sustainability ##
+
+**Fundamental Resource Allocation Algorithms**
+
+**Environmentally Equitable Computing**
+
+**Hardware-efficient Neural Architecture Search**
