@@ -39,8 +39,10 @@ Large AI models have witnessed remarkable success in recent years. As more and m
 
 
 **Fundamental Resource Allocation Algorithms**
+Online resource allocation is a key challenge to achieving carbon neutral computing or water selfsufficient computing. In these problems, renewables are replenished into batteries for AI computing. 
 
 **Environmentally Equitable Computing**
+It is required to decide when and where to schedule the AI workloads to improving the overall environmental efficiency. 
 
 **Hardware-efficient Neural Architecture Search**
 Hardware-aware Neural Architecture Search (NAS) is to optimize multiple performance metrics of AI models (accuracy , latency, energy consumption) when they are deployed on hardware systems. To complete hardware-aware NAS, we need to evaluate the performances of AI models on various devices. However, building a latency or enery predictor for various devices requires significant effort of measurements. We design novel methods that exploit latency monotonicity of different types of devices to sinificantly reduce the measurements (see SIGMETRIC'22).
