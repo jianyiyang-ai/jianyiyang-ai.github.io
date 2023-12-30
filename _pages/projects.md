@@ -43,7 +43,9 @@ Large AI models have witnessed remarkable success in recent years. As more and m
 **Environmentally Equitable Computing**
 
 **Hardware-efficient Neural Architecture Search**
+Hardware-aware Neural Architecture Search (NAS) is to optimize multiple performance metrics of AI models (accuracy , latency, energy consumption) when they are deployed on hardware systems. To complete hardware-aware NAS, we need to evaluate the performances of AI models on various devices. However, building a latency or enery predictor for various devices requires significant effort of measurements. We design novel methods that exploit latency monotonicity of different types of devices to sinificantly reduce the measurements (see SIGMETRIC'22).
 
+Another problem of AI deployment for diverse devices is to optimize the user experience which depends on accuracy latency, energy, etc. My studies develop user-centered online learning algorithms to select AI models for edge users, improving the user experience asymptotically (see IOTJ'22).
 
 <!-- pages/projects.md -->
 <div class="projects">
